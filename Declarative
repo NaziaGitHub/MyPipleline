@@ -7,7 +7,7 @@ stage('Build')
 {
 steps
 {
-log.info('Build')
+echo "Build"
 }
 }
 
@@ -15,7 +15,7 @@ stage('Deploy')
 {
 steps
 {
-log.info('Deploy')
+echo "Build"
 }
 }
 
@@ -23,7 +23,7 @@ stage('Test')
 {
 steps
 {
-log.info('Test')
+echo "Build"
 }
 }
 
@@ -31,7 +31,7 @@ stage('Release')
 {
 steps
 {
-log.info('Release')
+echo "Build"
 }
 }
 }
