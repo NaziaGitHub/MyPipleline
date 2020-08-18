@@ -7,6 +7,7 @@ stage('Build')
 {
 steps
 {
+log.info('Build')
 }
 }
 
@@ -14,6 +15,7 @@ stage('Deploy')
 {
 steps
 {
+log.info('Deploy')
 }
 }
 
@@ -21,6 +23,7 @@ stage('Test')
 {
 steps
 {
+log.info('Test')
 }
 }
 
@@ -28,6 +31,7 @@ stage('Release')
 {
 steps
 {
+log.info('Release')
 }
 }
 }
